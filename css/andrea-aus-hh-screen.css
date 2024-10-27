@@ -57,6 +57,7 @@ body {
 	font-family: Georgia;
 	margin-top: 1em;
 	margin-left: 1em;
+	background-color: #fafafa;
 }
 
 p {
@@ -67,22 +68,21 @@ p {
 	width: 40%;
 }
 
+
 code {
 	font: normal normal;
 	font-size: 90%;
-	/*line-height: 1em;*/
 	font-family: Monaco,Menlo,monospace,sans-serif;
 	color: #aaa;
 }
 
 p code {
-	position: absolute;
-	text-align: right;
+	position: relative;
 	right: -20%;
 }
 
 
-ul {
+ul, ol {
 	position: relative;
 	left: 25%;
 	width: 40%;
@@ -106,7 +106,6 @@ li {
 	/*second line indent*/
 	padding-left: 1.25em;
 	text-indent: -1.25em;
-	/*color: #777;*/
 }
 
 li ul {
@@ -129,6 +128,7 @@ h1 {
 	position: relative;
 	left: 25%;
 	margin-bottom: 1em;
+	margin-top: 2em;
 }
 
 h1+p {
@@ -138,9 +138,10 @@ h1+p {
 }
 
 h2 {
-	font-size: 1.2em;
-	color: #064911;
+	font-size: 1.3em;
+	color: #ac4b34;
 	position: relative;
+	margin-bottom: 3rem;
 	top: 1.4em;
 	text-align: right;
 	width: 20%;
@@ -151,12 +152,32 @@ h2 {
 }
 
 h3 {
-	font-size: 1em;
+	font-size: 1.1em;
 	line-height: 2em;
+	font-weight: bold;
 	position: relative;
 	top: 1.7em;
 	text-align: right;
 	width: 20%;
+}
+
+h4 {
+	position: relative;
+	font-size: 1.1em;
+	font-weight: bold;
+	left: 25%;
+	margin-bottom: 0.7em;
+	margin-right: 0;
+	width: 40%;
+}
+
+.work-experience {
+	padding-bottom: 1em;
+}
+
+.work-experience:hover {
+	transition: background-color 0.3s ease;
+	background-color: #f2f2f2;
 }
 
 a {
