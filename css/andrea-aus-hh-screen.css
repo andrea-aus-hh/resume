@@ -54,7 +54,7 @@ body {
 	font: normal normal 400;
 	font-size: 100%;
 	line-height: 1.5em;
-	font-family: Jost;
+	font-family: sans-serif;
 	margin-top: 1em;
 	margin-left: 1em;
 	background-color: #fafafa;
@@ -117,7 +117,7 @@ li ul {
 
 h1,h2,h3,h4 {
 	font-weight: 400;
-	font-family: Georgia;
+	font-family: sans-serif;
 	width: 80%;
 }
 
