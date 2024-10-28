@@ -60,7 +60,7 @@ I am a regular Linux user (Gentoo back in the days, now Fedora and Debian) on my
 
 ### Tools & Frameworks
 
-
+---
 
 ## 💻 Projects
 
