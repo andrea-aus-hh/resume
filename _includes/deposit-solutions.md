@@ -1,4 +1,5 @@
-### Online Marketing Manager - Deposit Solutions GmbH
+### Online Marketing Manager
+### [Deposit Solutions GmbH (now Raisin GmbH)](https://www.weltsparen.de/)
 #### December 2019 - September 2021
 
 **Role**:

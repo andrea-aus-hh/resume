@@ -54,7 +54,7 @@ body {
 	font: normal normal 400;
 	font-size: 100%;
 	line-height: 1.5em;
-	font-family: Georgia;
+	font-family: Jost;
 	margin-top: 1em;
 	margin-left: 1em;
 	background-color: #fafafa;
@@ -171,11 +171,21 @@ h4 {
 	width: 40%;
 }
 
-.work-experience {
+.chunk-of-life {
 	padding-bottom: 1em;
 }
 
+.chunk-of-life:hover {
+	transition: background-color 0.3s ease;
+	background-color: #f2f2f2;
+}
+
 .work-experience:hover {
+	transition: background-color 0.3s ease;
+	background-color: #f2f2f2;
+}
+
+.education:hover {
 	transition: background-color 0.3s ease;
 	background-color: #f2f2f2;
 }
@@ -186,7 +196,7 @@ a {
 }
 
 a:hover {
-	color:#39f
+	color:rgb(0, 1, 2)
 }
 
 #webaddress {

@@ -9,15 +9,15 @@ title: Andrea Lazzaretti
 
 ## 💼 Work Experience
 
-<div class='work-experience' markdown='1'>
+<div class='chunk-of-life work-experience' markdown='1'>
 {% include taxdoo.md %}
 </div>
 
-<div class='work-experience' markdown='1'>
+<div class='chunk-of-life work-experience' markdown='1'>
 {% include deposit-solutions.md %}
 </div>
 
-<div class='work-experience' markdown='1'>
+<div class='chunk-of-life work-experience' markdown='1'>
 {% include leuchtturm.md %}
 </div>
 
@@ -25,46 +25,43 @@ title: Andrea Lazzaretti
 
 ## 🎓 Education
 
-### Bachelor degree: Physics
-#### September 2008 - July 2011
+<div class='chunk-of-life education' markdown='1'>
+{% include physics.md %}
+</div>
 
-Università di Modena e Reggio Emilia
-- Thesis in computation/statistical Physics applied to Biophysics: performed
-GROMACS simulations in an HPC environment (IBM BlueGene/P) and analysed the
-result trajectories with Python/NumPy.
-- Final grade: 110/110 _Summa cum laude_
-
-### Bachelor degree: Theology
-#### September 2011-2017
-- Studio Teologico Interdiocesano di Reggio Emilia
-2011-2017
-
-In these years I had the desire to explore a different point of view on life and on na-
-ture, so I completed a whole cycle of philosophical/theological studies, during which
-my scientific background came back to me as a solid method and as a term of com-
-parison. Though at first I was interested in becoming a priest, at the end came the
-decision not to go through that path and to go for more exploration.
+<div class='chunk-of-life education' markdown='1'>
+{% include theology.md %}
+</div>
 
 ---
 
 ## 🛠 Skills
 ### Programming Languages
-At Taxdoo I'm programming in Java 80% of the time
-
-The remaining 10% is divided between TypeScript 
+- The good (used every day at work): Java
+- The average (used at work, but not as a primary language): TypeScript
+- The ok: Golang.
+- The amateur: Python
+- I also have sometimes touched: FORTRAN, C, Rust
  
 
 ### Operating Systems
 
-I am a regular Linux user (Gentoo back in the days, now Fedora and Debian) on my private computers, Mac OS X on my work computer.
+- Windows, as a kid that wanted to play Age of Empires II
+- I became a Linux user in 2004 (Fedora 1), still played Age of Empires II via [wine](https://www.winehq.org/). Fedora then became Mandrake, then Gentoo.
+- Switched to Mac OS X in 2011: a [Hackintosh](https://en.wikipedia.org/wiki/Hackintosh) first, then a proper Mac.
+- Now again a regular Linux user (Fedora 40) on my private computer.
 
 ### Tools & Frameworks
+
+- Build: Maven/Gradle
+- Docker, docker-compose
+
 
 ---
 
 ## 💻 Projects
 
-**Taxdoo connector for Magento**
+### Taxdoo connector for Magento
 
 One day, while I was taking a walk with a friend, I told him that I'd like to switch to Software Development, that I think I would have the skills,
 but how to prove it without neither experience, nor a proper University title?

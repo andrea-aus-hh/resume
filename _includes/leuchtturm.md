@@ -1,4 +1,5 @@
-### Online Marketing Manager - Leuchtturm Gruppe GmbH
+### Online Marketing Manager
+### [Leuchtturm Gruppe GmbH](https://www.leuchtturmgruppe.com/)
 #### August 2018 - November 2019
 
 I’ve had here my introduction to Performance Marketing, with special focus on Google

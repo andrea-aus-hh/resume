@@ -1,4 +1,5 @@
-### Software Engineer - Taxdoo GmbH
+### Software Engineer
+### [Taxdoo GmbH](https://www.taxdoo.com)
 
 #### October 2021 - present
 **Role**: Software Engineer
