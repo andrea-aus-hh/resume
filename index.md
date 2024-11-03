@@ -9,8 +9,6 @@ title: Andrea Lazzaretti
 
 ## 💼 Work Experience
 
-> tassaswwouf
-
 <div class='chunk-of-life' markdown='1'>
 {% include taxdoo.md %}
 </div>
