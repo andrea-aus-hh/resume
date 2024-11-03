@@ -57,7 +57,7 @@ body {
 	font-family: ui-sans-serif;
 	margin-top: 1em;
 	margin-left: 1em;
-	background-color: rgb(246 245 233 / var(--tw-bg-opacity));
+	background-color: #f6f5e9;
 }
 
 p {
@@ -92,7 +92,6 @@ ul, ol {
 	position: relative;
 	left: 25%;
 	width: 40%;
-	margin-bottom: 1.5em;
 	margin-top: -0.5em;
 }
 
@@ -144,7 +143,7 @@ h1+p {
 
 h2 {
 	font-size: 2em;
-	color: #ac4b34;
+	color: #6d2f21;
 	position: relative;
 	margin-bottom: 3em;
 	left: 25%;
@@ -168,14 +167,14 @@ h3, h4 {
 }
 
 .chunk-of-life {
-	padding-top: 4em;
-	padding-bottom: 4em;
+	padding-top: 3em;
+	padding-bottom: 3em;
 	font-size: 1.1em;
 }
 
 .chunk-of-life:hover {
 	transition: background-color 0.3s ease;
-	background-color: #f2f2f2;
+	background-color: #c2c1b667;
 }
 
 a {

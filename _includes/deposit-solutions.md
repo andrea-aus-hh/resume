@@ -1,14 +1,13 @@
 ### Online Marketing Manager :: [Deposit Solutions GmbH (now Raisin GmbH)](https://www.weltsparen.de/)
 <p class='date'>December 2019 - September 2021</p>
 
-**Role**:
+**Tasks**:
 1. Maintenance of our Performance Marketing accounts for the finance portal ZINSPILOT
 2. Taking care of tracking and Google Analytics
 3. Analysis of performance data.
 
-#### Key Contributions
-Some side projects have been very interesting to me, and worth
-mentioning:
+**Two relevant side projects**:
+
 - **Customer Notifications for ZINSPILOT**: in order to use our IT resources more
 efficiently, I suggested to implement personalised notifications for our customers
 through Google Tag Manager, in a way that requires minimal IT effort and gives
