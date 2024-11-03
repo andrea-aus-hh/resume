@@ -1,10 +1,9 @@
-### Online Marketing Manager
-### [Deposit Solutions GmbH (now Raisin GmbH)](https://www.weltsparen.de/)
-#### December 2019 - September 2021
+### Online Marketing Manager :: [Deposit Solutions GmbH (now Raisin GmbH)](https://www.weltsparen.de/)
+<p class='date'>December 2019 - September 2021</p>
 
 **Role**:
 1. Maintenance of our Performance Marketing accounts for the finance portal ZINSPILOT
-2. Taking care of tracking and GA
+2. Taking care of tracking and Google Analytics
 3. Analysis of performance data.
 
 #### Key Contributions

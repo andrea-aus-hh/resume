@@ -1,14 +1,27 @@
-### Software Engineer
-### [Taxdoo GmbH](https://www.taxdoo.com)
+### (Senior) Software Engineer :: [Taxdoo GmbH](https://www.taxdoo.com)
+<p class='date'>October 2021 - present</p>
 
-#### October 2021 - present
-**Role**: Software Engineer
+**What am I the proudest of?**
 
-**Key Contributions**: Contributing to a major refactoring away from a Monolith, into a combination of Step Functions
+- Refactoring of a large in-memory processing into a Java Streams based one, which uses an arbitrarily low memory footprint.
+- Containerisation of services for easier testability in CI/CD pipelines.
+- How I entered this job in the first place: see [Taxdoo connector for Magento](#magento)
+- Having started as a Junior, and having now the title of Senior.
 
-**Skills Gained**: I started this job in a Junior role, and reached a Senior level in the space of two years. Among others, it has been my introduction to:
-  - AWS, esp. Lambda, Step Functions, SQS, SNS, S3, DynamoDB, CDK
-  - Java (versions from 8 to 21), Golang, TypeScript
-  - Infrastructure as code
-  - Agile methodologies
-  - Domain Driven Design
+**Technologies I touch every day**
+
+- Java 21 code, running on ECS and AWS Lambda
+- The data is mostly stored on MySQL/DynamoDB Databases, S3 Buckets
+- Infrastructure on AWS, provisioned via CDK: Lambda, S3, RDS, Step Functions, SQS, SNS, Eventbridge
+- Gitlab CI/CD pipelines
+
+**Technologies I touch relatively often**
+
+- Backend/frontend TypeScript
+- Golang
+
+**Ok, but why is senior in parenthesis?**
+
+My title is indeed Senior Software Engineer. This being my first proper Software Engineer job, I struggle at calling myself Senior.
+
+However, I still feel proud of having started as a junion in a place, and now being considered a Senior.

@@ -54,10 +54,10 @@ body {
 	font: normal normal 400;
 	font-size: 100%;
 	line-height: 1.5em;
-	font-family: sans-serif;
+	font-family: ui-sans-serif;
 	margin-top: 1em;
 	margin-left: 1em;
-	background-color: #fafafa;
+	background-color: rgb(246 245 233 / var(--tw-bg-opacity));
 }
 
 p {
@@ -66,6 +66,12 @@ p {
 	margin-bottom: 0.7em;
 	margin-right: 0;
 	width: 40%;
+}
+
+p.date {
+	color: rgb(87, 87, 87);
+	font-style: italic;
+	margin-bottom: 1rem;
 }
 
 
@@ -117,7 +123,6 @@ li ul {
 
 h1,h2,h3,h4 {
 	font-weight: 400;
-	font-family: sans-serif;
 	width: 80%;
 }
 
@@ -138,54 +143,37 @@ h1+p {
 }
 
 h2 {
-	font-size: 1.3em;
+	font-size: 2em;
 	color: #ac4b34;
 	position: relative;
-	margin-bottom: 3rem;
+	margin-bottom: 3em;
+	left: 25%;
 	top: 1.4em;
-	text-align: right;
-	width: 20%;
+	text-align: left;
 }
 
 .general {
 	width: 100%;
 }
 
-h3 {
-	font-size: 1.1em;
-	line-height: 2em;
-	font-weight: bold;
-	position: relative;
-	top: 1.7em;
-	text-align: right;
-	width: 20%;
-}
 
-h4 {
+h3, h4 {
 	position: relative;
-	font-size: 1.1em;
 	font-weight: bold;
 	left: 25%;
 	margin-bottom: 0.7em;
 	margin-right: 0;
 	width: 40%;
+	font-size: 1.1em;
 }
 
 .chunk-of-life {
-	padding-bottom: 1em;
+	padding-top: 4em;
+	padding-bottom: 4em;
+	font-size: 1.1em;
 }
 
 .chunk-of-life:hover {
-	transition: background-color 0.3s ease;
-	background-color: #f2f2f2;
-}
-
-.work-experience:hover {
-	transition: background-color 0.3s ease;
-	background-color: #f2f2f2;
-}
-
-.education:hover {
 	transition: background-color 0.3s ease;
 	background-color: #f2f2f2;
 }
@@ -224,10 +212,3 @@ strong {
 #address {
 	display: none;
 }
-
-
-
-/*
-@media only screen and (max-width: 480px) {
-	make one column somehow...
-}*/

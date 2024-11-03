@@ -1,4 +1,4 @@
-### Taxdoo connector for Magento
+### Taxdoo connector for Magento<a name="magento"></a>
 
 One day, while I was taking a walk with a friend, I told him that I'd like to switch to Software Development, that I think I would have the skills,
 but how to prove it without neither experience, nor a proper University title?
