@@ -1,25 +1,28 @@
 ### (Senior) Software Engineer :: [Taxdoo GmbH](https://www.taxdoo.com)
 <p class='date'>October 2021 - present</p>
 
-**The proudest moments**
+**The highlights**
 
 - How I entered this job in the first place: see [Taxdoo connector for Magento](#magento).
-- Refactoring of a large in-memory processing into a Java Streams based one, which uses an arbitrarily low memory footprint.
+- Refactoring of in-memory processing into a Java Streams based one, with an arbitrarily low memory footprint.
+- Replacement of weakly typed variables with strong domain-rooted types
 - Containerisation of services for easier testability in CI/CD pipelines.
 - Having started as a Junior, and having now the title of Senior.
 
 <p></p>
 
-**Technologies I work with on the daily**
+**Technologies I use every day**
 
-- Most code is in Java 21, running on ECS and AWS Lambda
-- The data is stored on MySQL/DynamoDB Databases and S3 Buckets
-- Infrastructure on AWS, provisioned via CDK: Lambda, S3, RDS, Step Functions, SQS, SNS, Eventbridge
+- Java 21, running on ECS and AWS Lambda, orchestrated by Step Functions
+- Data is persisted in MySQL/DynamoDB Databases and S3 Buckets
+- Further AWS Infrastructure: SQS, SNS, Eventbridge
+- Deployments via CDK
 - Gitlab CI/CD pipelines
+- Docker and localstack for integration testing
 
 <p></p>
 
-**Technologies I work with once per week**
+**Technologies I use, but not every day**
 
-- Backend/frontend TypeScript
-- Two Golang backends that
+- TypeScript: frontends, their corresponding Backend-for-Frontend
+- Golang

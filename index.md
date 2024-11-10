@@ -45,10 +45,6 @@ title: Andrea Lazzaretti
 {% include oses.md %}
 </div>
 
-<div class='chunk-of-life' markdown='1'>
-{% include tools.md %}
-</div>
-
 ---
 
 ## 💻 Projects

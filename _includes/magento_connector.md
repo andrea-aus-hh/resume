@@ -1,10 +1,5 @@
 ### Taxdoo connector for Magento<a name="magento"></a>
 
-One day during the pandemic I was telling a friend that I was bored of Online Marketing, and that I would see myself in Software Development:
-I would have the skills, but how shall I prove it without experience, or a CS University title?
+Wanting to move from Online Marketing into Software Development, I knew I’d need a way to show recruiters and interviewers what I could do.
 
-He mentioned that Taxdoo, his employer back then, was still lacking a connector for Magento,
-that they had a public API for people to build integrations. What if you be the one building it?
-
-Why not, I thought, I wanted anyway to start building a portfolio of projects, why not this one? In the next 1.5 months I built a functioning plugin
-(see the [GitHub Link](https://github.com/andrea-aus-hh/taxdoo-magento2-extension/)), which caught the attention of the recruiters.
+When a friend at Taxdoo mentioned they still needed a Magento connector and that they could set me up with a Taxdoo account, I saw the perfect opportunity: not only I had a concrete project to work on, but it could even attract the attention of recruiters. I forked a similar plugin from TaxJar as a starting point, then customized it to work with Taxdoo’s API. After about a month and a half, I had a fully working plugin up and running on GitHub. The project got indeed the attention of recruiters, giving me a strong entry point into development.
