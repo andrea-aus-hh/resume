@@ -1,4 +1,4 @@
-### Bachelor degree::Physics
+### Bachelor degree :: Physics
 ### Università di Modena e Reggio Emilia
 #### Sept. 2008 - July 2011
 - Thesis in computation/statistical Physics applied to Biophysics: performed

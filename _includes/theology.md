@@ -1,4 +1,4 @@
-### Bachelor degree::Theology
+### Bachelor degree :: Theology
 ### Studio Teologico Interdiocesano di Reggio Emilia
 #### 2011-2017
 
