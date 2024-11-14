@@ -18,6 +18,8 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 	position: relative;
+	max-width: 100%;
+	box-sizing: border-box;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -39,7 +41,6 @@ ol, ul {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-	left: 25%;
 	margin-bottom: 0.7em;
 	width: 20%;
 }
@@ -54,8 +55,9 @@ body {
 	background-color: #f6f5e9;
 }
 
-p, summary, h3, h4, ul, ol, hr {
+p, summary, h1,h2, h3, h4, ul, ol, hr, table {
 	width: 45%;
+	left: 25%;
 }
 
 p, summary {
@@ -83,7 +85,6 @@ code {
 }
 
 ul, ol {
-	left: 25%;
 	margin-top: -0.5em;
 }
 
@@ -113,7 +114,6 @@ h1 {
 	text-align: left;
 	font-size: 3em;
 	line-height: 1em;
-	left: 25%;
 	margin-bottom: 1em;
 	margin-top: 2em;
 }
@@ -128,7 +128,6 @@ h2 {
 	font-size: 2em;
 	color: #6d2f21;
 	margin-bottom: 3em;
-	left: 25%;
 	top: 1.4em;
 	text-align: left;
 }
@@ -136,7 +135,6 @@ h2 {
 
 h3, h4 {
 	font-weight: bold;
-	left: 25%;
 	margin-bottom: 0.7em;
 	margin-right: 0;
 	font-size: 1.1em;
