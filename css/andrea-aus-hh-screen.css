@@ -95,7 +95,6 @@ hr {
 
 li:before {
 	content: "-";
-	left: -0.25em;
 }
 
 li {
