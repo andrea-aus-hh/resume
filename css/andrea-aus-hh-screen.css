@@ -60,8 +60,14 @@ p, summary, h1,h2, h3, h4, ul, ol, hr, table {
 	left: 25%;
 }
 
+@media only screen and (max-width: 880px) {
+	p, summary, h1,h2, h3, h4, ul, ol, hr, table {
+		left: 10%;
+		width: 80%;
+	}
+}
+
 p, summary {
-	left: 25%;
 	margin-bottom: 0.7em;
 }
 
