@@ -183,10 +183,10 @@ h3, h4 {
 	background-color: #c2c1b667;
 }
 
-/* Remove hover effect on mobile */
-@media only screen and (max-width: 768px) {
+@media (pointer: coarse) and (hover: none) {
     .chunk-of-life:hover {
-        background-color: inherit; /* Reset the background color */
+        background-color: inherit;
+		transition: none
     }
 }
 
