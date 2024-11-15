@@ -11,7 +11,7 @@
 
 <p></p>
 
-**Technologies I use every day**
+**🛠️ What I use every day 🛠️**
 
 - Java 21, running on ECS and AWS Lambda, orchestrated by Step Functions
 - Data is persisted in MySQL/DynamoDB Databases and S3 Buckets
@@ -22,7 +22,7 @@
 
 <p></p>
 
-**Technologies I use, but not every day**
+**⛏️ What I use almost every day ⛏️**
 
 - TypeScript: frontends, their corresponding Backend-for-Frontend
 - Golang
