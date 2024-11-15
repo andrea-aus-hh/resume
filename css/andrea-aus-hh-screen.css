@@ -47,7 +47,6 @@ table {
 
 body {
 	font: normal normal 300;
-	font-size: 100%;
 	line-height: 2.5rem;
 	font-family: Georgia, ui-sans-serif;
 	margin-top: 1em;
@@ -117,7 +116,7 @@ li ul {
 
 h1 {
 	text-align: left;
-	font-size: 3em;
+	font-size: 3rem;
 	line-height: 1em;
 	margin-bottom: 1em;
 	margin-top: 2em;
@@ -130,7 +129,7 @@ h1+p {
 }
 
 h2 {
-	font-size: 2em;
+	font-size: 2rem;
 	color: #6d2f21;
 	margin-bottom: 3em;
 	top: 1.4em;
@@ -161,6 +160,12 @@ h3, h4 {
         background-color: inherit;
 		transition: none
     }
+}
+
+@media only screen and (max-width: 880px) {
+	.chunk-of-life {
+		font-size: 1rem;
+	}
 }
 
 a {
