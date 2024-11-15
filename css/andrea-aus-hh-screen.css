@@ -64,6 +64,10 @@ p, summary, h1,h2, h3, h4, ul, ol, hr, table {
 		left: 10%;
 		width: 80%;
 	}
+
+	body {
+		line-height: 1.8rem;
+	}
 }
 
 p, summary {
@@ -98,14 +102,23 @@ hr {
 	margin-bottom: 2em;
 }
 
-li:before {
+li::marker {
 	content: "- ";
+	margin-right: 0.5em; /* Add spacing */
+	@media only screen and (max-width: 880px) {
+		content: ''
+	}
 }
 
 li {
-	/*second line indent*/
-	padding-left: 1.25em;
-	text-indent: -1.25em;
+	padding-left: 1.25rem;
+	text-indent: -1.25rem;
+
+	@media only screen and (max-width: 880px) {
+		padding-left: 0rem;
+		text-indent: 0rem;
+		margin-bottom: 2rem;
+	}
 }
 
 li ul {
@@ -147,7 +160,7 @@ h3, h4 {
 .chunk-of-life {
 	padding-top: 3em;
 	padding-bottom: 3em;
-	font-size: 1.5em;
+	font-size: 1.5rem;
 }
 
 .chunk-of-life:hover {

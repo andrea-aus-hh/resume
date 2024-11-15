@@ -1,13 +1,13 @@
-### (Senior) Software Engineer :: [Taxdoo GmbH](https://www.taxdoo.com)
+### Senior Software Engineer :: [Taxdoo GmbH](https://www.taxdoo.com)
 <p class='date'>October 2021 - present</p>
 
-**The highlights**
+**✨ The highlights ✨**
 
 - How I entered this job in the first place: see [Taxdoo connector for Magento](#magento).
 - Refactoring of in-memory processing into a Java Streams based one, with an arbitrarily low memory footprint.
 - Replacement of weakly typed variables with strong domain-rooted types
 - Containerisation of services for easier testability in CI/CD pipelines.
-- Having started as a Junior, and having now the title of Senior.
+- Having started as a Junior, and being now Senior.
 
 <p></p>
 
