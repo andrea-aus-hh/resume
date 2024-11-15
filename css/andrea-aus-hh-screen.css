@@ -63,7 +63,7 @@ p, summary, h1,h2, h3, h4, ul, ol, hr, table {
 @media only screen and (max-width: 880px) {
 	p, summary, h1,h2, h3, h4, ul, ol, hr, table {
 		left: 10%;
-		width: 65%;
+		width: 80%;
 	}
 }
 
