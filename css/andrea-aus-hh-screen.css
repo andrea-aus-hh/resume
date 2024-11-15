@@ -100,7 +100,7 @@ hr {
 }
 
 li:before {
-	content: "-";
+	content: "- ";
 }
 
 li {
