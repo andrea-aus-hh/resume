@@ -1,11 +1,11 @@
 # My resume
 
-This is my resume, written in Markdown.
+This is the source code of my resume.
 
 ## Contributing
 
-I don't accept Pull Requests on this repository: the best way to contribute is to send me invitations for interviews.
+Posting a Pull Request to this repository could be a clever way to invite me for an interview.
 
 ## Credits
 
-Much of this is taken from [markdown-cv by Eliseo Papa](markdown-cv by Eliseo Papa)
+Much of this is taken from [markdown-cv by Eliseo Papa](https://github.com/elipapa/markdown-cv)
