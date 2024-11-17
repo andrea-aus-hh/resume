@@ -1,6 +1,6 @@
 ### Operating Systems
 
-As a kid I used what we had at home, Windows PCs (from 3.1 to 10), on which I was content to play Age of Empires II.
+As a kid I used what we had at home, Windows PCs (from 3.1 to 10), on which I was content to fumble around and play Age of Empires II.
 
 I became a Linux user in 2004 (Fedora 1). Not content with Fedora, I hopped through many distributions, then settled on Gentoo.
 I could also still play Age of Empires II via [wine](https://www.winehq.org/).
