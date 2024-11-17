@@ -1,6 +1,5 @@
 ### Programming Languages
-- The good (used every day at work): Java
-- The average (used at work, but not as a primary language): TypeScript
-- The ok: Golang.
-- The amateur: Python
+- Used every day at work: Java
+- Used at work, but not every day: TypeScript, Golang
+- I did the work for my bachelor thesis in Python (Matplotlib, numpy)
 - I also have sometimes touched: FORTRAN, C, Rust
