@@ -1,10 +1,11 @@
 ### Operating Systems
 
-As a kid I simply used what we had at home, Windows PCs. Also I was happy to play Age of Empires II.
+As a kid I used what we had at home, Windows PCs (from 3.1 to 10), on which I was content to play Age of Empires II.
 
-I became a Linux user in 2004 (Fedora 1), still played Age of Empires II via [wine](https://www.winehq.org/).
-Not content with Fedora, I hopped through many distributions, then settled on Gentoo.
+I became a Linux user in 2004 (Fedora 1). Not content with Fedora, I hopped through many distributions, then settled on Gentoo.
+I could also still play Age of Empires II via [wine](https://www.winehq.org/).
 
-Switched to Mac OS X in 2011: a [Hackintosh](https://en.wikipedia.org/wiki/Hackintosh) first, then a real Mac.
+On a wave of fascination for their design philosophy, I switched to Mac OS X in 2011:
+a [Hackintosh](https://en.wikipedia.org/wiki/Hackintosh) first, then the real thing.
 
-Since 2023 again a regular Linux user (Fedora 40) on my private computer.
+Since 2023 I'm again a regular Linux user (Fedora 40) on my private computer.
