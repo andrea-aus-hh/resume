@@ -24,5 +24,5 @@
 
 **⛏️ What I use almost every day ⛏️**
 
-- TypeScript: frontends, their corresponding Backend-for-Frontend
+- TypeScript (Node/React): frontends with their Backend-for-Frontend
 - Golang
