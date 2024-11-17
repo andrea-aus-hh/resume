@@ -16,8 +16,8 @@
 - Java 21, running on ECS and AWS Lambda, orchestrated by Step Functions
 - Data is persisted in MySQL/DynamoDB Databases and S3 Buckets
 - Further AWS Infrastructure: SQS, SNS, Eventbridge
-- Deployments via CDK
-- Gitlab CI/CD pipelines
+- Infrastructure defined via CDK
+- Build/test/deployments happening via Gitlab CI/CD pipelines
 - Docker and localstack for integration testing
 
 <p></p>
