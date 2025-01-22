@@ -11,30 +11,47 @@ on:
 
 
 jobs:
-  build:
+  build-and-push:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v2
-
-      - name: Build Docker Image
-        id: build
-        run: |
-          docker build -t pdflatex-europecv -f latex/Dockerfile .
-
-      - name: Check for Docker image changes
-        id: check_image
-        run: |
-          IMAGE_HASH=$(docker images pdflatex-europecv --format "{{.ID}}")
-          echo "IMAGE_HASH=$IMAGE_HASH" >> $GITHUB_ENV
-
+      - name: Cache Docker layers
+        uses: actions/cache@v2
+        with:
+          path: /tmp/.buildx-cache
+          key: ${{ runner.os }}-buildx-${{ github.sha }}
+          restore-keys: |
+            ${{ runner.os }}-buildx-
+      - name: Log in to the Container registry
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      # This step uses [docker/metadata-action](https://github.com/docker/metadata-action#about) to extract tags and labels that will be applied to the specified image. The `id` "meta" allows the output of this step to be referenced in a subsequent step. The `images` value provides the base name for the tags and labels.
+      - name: Extract metadata (tags, labels) for Docker
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+      - name: Build and push Docker image
+        id: push
+        uses: docker/build-push-action@v6
+        with:
+          context: latex/.
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+  release-pdf:
+    needs: build-and-push
+    steps:
       - name: Compile LaTeX and release PDF
         run: |
           TIMESTAMP=$(date +'%Y%m%d%H%M%S')
-          docker run --rm -v $GITHUB_WORKSPACE:/workspace pdflatex-europecv pdflatex -output-directory=/latex /latex/main.tex
+          docker run --rm -v $GITHUB_WORKSPACE:/workspace ${{ needs.build-and-push.outputs.tags }} pdflatex -output-directory=/latex /workspace/latex/cv.tex
           gh release create "v$TIMESTAMP" /latex/*.pdf --title "Release PDF $TIMESTAMP" --notes "Compiled LaTeX"
           
