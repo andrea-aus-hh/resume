@@ -43,6 +43,7 @@ jobs:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
       - name: Build and push Docker image
         id: push
+        if: ${{ github.event_name == 'push' && contains(github.event.commits.*.modified, 'latex/') }}
         uses: docker/build-push-action@v6
         with:
           context: latex/.
@@ -64,6 +65,6 @@ jobs:
       - name: Compile LaTeX and release PDF
         run: |
           TIMESTAMP=$(date +'%Y%m%d%H%M%S')
-          docker run --rm -v $GITHUB_WORKSPACE:/workspace ${{ env.IMAGE_NAME }} pdflatex -output-directory=/latex /workspace/latex/cv.tex
+          docker run --rm -v $GITHUB_WORKSPACE:/workspace ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }} pdflatex -output-directory=/latex /workspace/latex/cv.tex
           gh release create "v$TIMESTAMP" /latex/*.pdf --title "Release PDF $TIMESTAMP" --notes "Compiled LaTeX"
           
