@@ -7,7 +7,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}/resume
+  IMAGE_NAME: ${{ github.repository }}/pdflatex
 
 jobs:
   build-and-push:
@@ -55,6 +55,12 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+      - name: Log in to the Container registry
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
       - name: Compile LaTeX and release PDF
         run: |
           TIMESTAMP=$(date +'%Y%m%d%H%M%S')
