@@ -60,6 +60,6 @@ jobs:
         run: |
           TIMESTAMP=$(date +'%Y%m%d%H%M%S')
           docker pull ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:main
-          docker run --rm -v $GITHUB_WORKSPACE:/workspace ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:main pdflatex -output-directory=/workspace/latex /workspace/latex/cv.tex
+          docker run --rm -v $GITHUB_WORKSPACE:/workspace ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:main pdflatex -interaction=nonstopmode -output-directory=/workspace/latex /workspace/latex/cv.tex
           gh release create "v$TIMESTAMP" /latex/*.pdf --title "Release PDF $TIMESTAMP" --notes "Compiled LaTeX"
           
