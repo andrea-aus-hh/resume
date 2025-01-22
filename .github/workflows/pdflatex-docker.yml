@@ -47,6 +47,11 @@ jobs:
   release-pdf:
     needs: build-and-push
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      packages: read
+      attestations: read
+      id-token: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
