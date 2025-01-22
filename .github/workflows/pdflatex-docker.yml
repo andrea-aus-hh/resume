@@ -65,6 +65,7 @@ jobs:
       - name: Compile LaTeX and release PDF
         run: |
           TIMESTAMP=$(date +'%Y%m%d%H%M%S')
+          docker pull ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:main
           docker run --rm -v $GITHUB_WORKSPACE:/workspace ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }} pdflatex -output-directory=/latex /workspace/latex/cv.tex
           gh release create "v$TIMESTAMP" /latex/*.pdf --title "Release PDF $TIMESTAMP" --notes "Compiled LaTeX"
           
