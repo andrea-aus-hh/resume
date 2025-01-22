@@ -1,0 +1,69 @@
+\documentclass[helvetica,openbib,nologo,notitle,totpages]{europecv}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage[a4paper,top=1.27cm,left=1cm,right=1cm,bottom=2cm]{geometry}
+\usepackage[english]{babel}
+\usepackage{url}
+
+
+\ecvname{Lazzaretti, Andrea}
+\ecvfootername{Andrea Lazzaretti}
+\ecvaddress{Musterstrasse, Musterstadt}
+\ecvtelephone{<>}
+\ecvfax{}
+\ecvemail{\url{<>@gmail.com}}
+\ecvhomepage{\url{https://github.com/andrea-aus-hh}}
+\ecvnationality{Italian}
+\ecvdateofbirth{01. Jan 1900}
+\ecvgender{Male}
+\ecvfootnote{}
+
+\begin{document}
+\selectlanguage{english}
+
+
+\begin{europecv}
+\ecvpersonalinfo[5pt]
+
+\ecvsection{Professional Experience}
+
+\ecvitem{\textbf{Oct 2021 - }}{Taxdoo GmbH}
+\ecvitem[10pt]{Software Engineer}{Currently working in a team that owns Taxdoo's VAT Compliance product: evaluation of client data from a VAT perspective, creation of reports, management of workflows related to filing VAT reports. These are main aspects of my work:
+\begin{itemize}
+\item 80\% of the code we own is in Java 21 and runs on AWS Lambda. The rest consists of React frontends, and Golang/TypeScript backends.
+\item Strong focus on testing: unit/integration (JUnit) tests for every introduced behaviour and e2e tests for critical paths.
+\item Cloud infrastructure maintenance: we use mainly AWS Lambda, Step Functions, S3, SQS, SNS, MySQL and DynamoDB, API Gateway, and CloudWatch. Deployments via Gitlab CI/CD pipelines, based on IaC (AWS CDK).
+\item Weekly rotation of so-called "Bademeister" role, which has the duty of moderating meetings, dealing with stakeholders' requests and triaging alerts.
+\item Driving of whole projects: drafting a design, planning the implementation, writing stories. As of late, I've driven the automation of workflows related to annual filings, which used to need a lot of touchpoints with Software Engineers, and now need almost none.
+\end{itemize}}
+
+\ecvitem{\textbf{Nov 2019 - Sep 2021}}{Deposit Solutions GmbH}
+\ecvitem[10pt]{Performance Marketing Manager}{My main duties have been: (1) Maintenance of our Performance Marketing accounts for the finance portal ZINSPILOT, (2) Taking care of tracking and GA, (3) Analysis of performance data. A particular focus was on producing a lifetime value analysis of our customers, which I executed in Python (pandas, numpy, matplotlib, TensorFlow).}
+
+\ecvitem{\textbf{Aug 2018 - Nov 2019}}{Leuchtturm Gruppe GmbH}
+\ecvitem[10pt]{Online Marketing Manager}{I've had here my introduction to Performance Marketing, with special focus on Google and Facebook Ads, being in charge of maintaining all the accounts and evaluating the data (at that time, managing around €30k per month). In the meantime I became the go-to person for every Google Analytics question.}
+
+\ecvitem{\textbf{Jul 2017 - Aug 2018}}{Gap Year in Hamburg}
+\ecvitem[10pt]{Workaway}{In these months I had the opportunity to learn the German language and experience the German culture, especially by staying with two different host families and working small jobs as barista and Math/Physics assistant teacher.}
+
+\ecvsection{Education}
+
+\ecvitem{\textbf{2011 -- 2017}}{Studio Teologico Interdiocesano di Reggio Emilia}
+\ecvitem[10pt]{Bachelor Degree}{Theology}
+\ecvitem[10pt]{}{In these years I had the desire to explore a different point of view on life and on nature, so I completed a whole cycle of philosophical/theological studies, during which my scientific background came back to me as a solid method and as a term of comparison. Though at first I was interested in becoming a priest, at the end came the decision not to go through that path and to go for more exploration.}
+
+\ecvitem{\textbf{2008 -- 2011}}{Università di Modena e Reggio Emilia}
+\ecvitem[10pt]{Bachelor Degree}{Physics. Thesis in computation/statistical Physics applied to Biophysics: performed GROMACS simulations in an HPC environment (IBM BlueGene/P) and analysed the result trajectories with Python/NumPy. Final grade: 110/110 \emph{Summa cum laude}}
+
+\ecvsection{Personal skills and competences}
+
+\ecvmothertongue[5pt]{Italian}
+\ecvitem{\large Other language(s)}{fluent in English and German}
+\ecvitem[10pt]{\large Operating systems}{I've alternated between Windows, macOS and GNU/Linux systems (mostly Debian, Fedora, Gentoo).}
+\ecvitem[10pt]{\large Programming languages}{My current job has me working daily on Java, Golang, and TypeScript. In the past I've also touched code in C, C++, FORTRAN, BASIC, Python, Matlab, HTML/CSS/Javascript, PHP.}
+\ecvitem[10pt]{\large HPC/Scientific computing}{For my Bachelor thesis, I compiled software, did computations and analysed data on a BlueGene/P calculator, for benchmarking and simulation purposes.}
+
+\end{europecv}
+
+
+\end{document}
