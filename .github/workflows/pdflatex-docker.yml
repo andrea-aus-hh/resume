@@ -4,11 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-        - .github/workflows/pdflatex-docker.yml
-        - latex/**
-  workflow_dispatch:
-
 
 jobs:
   build-and-push:
