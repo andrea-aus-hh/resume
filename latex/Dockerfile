@@ -1,4 +1,4 @@
-FROM texlive/texlive:small
+FROM texlive/texlive
 
 RUN apt-get update && apt-get install -y \
     texlive-latex-base \
