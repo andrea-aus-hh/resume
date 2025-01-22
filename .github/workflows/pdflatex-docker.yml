@@ -61,7 +61,7 @@ jobs:
           TIMESTAMP=$(date +'%Y%m%d%H%M%S')
           docker pull ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:main
           docker run --rm -v $GITHUB_WORKSPACE:/workspace ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:main pdflatex -interaction=nonstopmode -output-directory=/workspace/latex /workspace/latex/cv.tex || true
-          gh release create "v$TIMESTAMP" /workspace/latex/*.pdf --title "Release PDF $TIMESTAMP" --notes "Compiled LaTeX"
+          gh release create "v$TIMESTAMP" $GITHUB_WORKSPACE/latex/*.pdf --title "Release PDF $TIMESTAMP" --notes "Compiled LaTeX"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
