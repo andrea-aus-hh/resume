@@ -43,7 +43,10 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
   release-pdf:
     needs: build-and-push
+    runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
       - name: Compile LaTeX and release PDF
         run: |
           TIMESTAMP=$(date +'%Y%m%d%H%M%S')
