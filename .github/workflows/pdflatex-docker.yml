@@ -51,6 +51,13 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
   release-pdf:
     needs: build-and-push
+    if: ${{ always() }}
+    on:
+      push:
+        branches:
+          - main
+        paths:
+          - 'latex/cv.tex'
     runs-on: ubuntu-latest
     permissions:
       contents: write
