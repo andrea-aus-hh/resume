@@ -1,8 +1,5 @@
-FROM texlive/texlive
+FROM texlive/texlive:latest-small
 
-RUN apt-get update && apt-get install -y \
-    texlive-latex-base \
-    texlive-latex-extra \
-    texlive-fonts-recommended \
-    texlive-fonts-extra \
-    && rm -rf /var/lib/apt/lists/*
+RUN apt-get update
+RUN apt-get install -y texlive-latex-extra
+RUN apt-get install -y texlive-fonts-recommended
