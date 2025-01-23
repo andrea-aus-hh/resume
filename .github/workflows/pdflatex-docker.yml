@@ -14,8 +14,6 @@ jobs:
     runs-on: ubuntu-latest
     on:
       push:
-        branches:
-          - main
         paths:
           - 'latex/Dockerfile'
     permissions:
@@ -50,8 +48,8 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
   release-pdf:
-    needs: build-and-push
     if: ${{ always() }}
+    needs: build-and-push
     on:
       push:
         branches:
