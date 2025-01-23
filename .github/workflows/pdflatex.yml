@@ -1,4 +1,4 @@
-name: Create Docker image and Release PDF
+name: Release PDF
 
 on:
   push:
@@ -13,13 +13,6 @@ env:
 
 jobs:
   release-pdf:
-    if: ${{ always() }}
-    on:
-      push:
-        branches:
-          - main
-        paths:
-          - 'latex/cv.tex'
     runs-on: ubuntu-latest
     permissions:
       contents: write

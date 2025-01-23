@@ -1,4 +1,4 @@
-name: Create Docker image and Release PDF
+name: Create Docker image
 
 on:
   push:
