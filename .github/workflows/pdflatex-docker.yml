@@ -12,6 +12,12 @@ env:
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
+    on:
+      push:
+        branches:
+          - main
+        paths:
+          - 'latex/Dockerfile'
     permissions:
       contents: read
       packages: write
