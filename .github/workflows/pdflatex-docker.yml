@@ -41,17 +41,8 @@ jobs:
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
           tags: latest
-      - name: Check for changes in target directory
-        id: check_changes
-        run: |
-          if git diff --quiet HEAD^ HEAD -- latex/; then
-            echo "changes_detected=false" >> $GITHUB_ENV
-          else
-            echo "changes_detected=true" >> $GITHUB_ENV
-          fi
       - name: Build and push Docker image
         id: push
-        if: env.changes_detected == 'true'
         uses: docker/build-push-action@v6
         with:
           context: latex/.
