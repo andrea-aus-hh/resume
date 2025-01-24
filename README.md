@@ -7,7 +7,7 @@ This repository contains the source code for my professional resume, available i
 
 ## Contributing
 
-Raising a Pull Request here would be a very clever way to invite me for an interview.
+Raising a Pull Request would be a clever way to invite me for an interview.
 
 ## Credits
 
