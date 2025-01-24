@@ -1,10 +1,13 @@
 # My resume
 
-This is the source code of my resume.
+This repository contains the source code for my professional resume, available in two formats:
+- The LaTeX version, for when a polished PDF two-pager is needed
+  - The PDF is built after each commit on master, and published here as a release.
+- A Markdown version, hosted on GitHub Pages (see [here](https://resume.andrea-aus-hh.de/)).
 
 ## Contributing
 
-Posting a Pull Request to this repository could be a clever way to invite me for an interview.
+Raising a Pull Request here would be a very clever way to invite me for an interview.
 
 ## Credits
 
